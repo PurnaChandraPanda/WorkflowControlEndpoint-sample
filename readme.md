@@ -12,7 +12,7 @@ The [doc](https://docs.microsoft.com/en-us/dotnet/api/system.servicemodel.activi
                 new Uri("http://localhost/Dataflow.xaml"));
             host.Description.Behaviors.Add(new SqlWorkflowInstanceStoreBehavior
             {
-                ConnectionString = ConfigurationManager.AppSettings["persistenceStore"],
+                ConnectionString = ConfigurationManager.ConnectionStrings["persistenceStore"].ConnectionString,
                 InstanceEncodingOption = InstanceEncodingOption.None,
                 InstanceCompletionAction = InstanceCompletionAction.DeleteAll,
                 InstanceLockedExceptionAction = InstanceLockedExceptionAction.NoRetry,
