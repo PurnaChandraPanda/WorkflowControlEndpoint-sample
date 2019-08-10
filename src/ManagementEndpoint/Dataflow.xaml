@@ -1,0 +1,30 @@
+﻿<Sequence mc:Ignorable="sads sap" sad:XamlDebuggerXmlReader.FileName="E:\case\119070822001554-Achim\sample\ManagementEndpoint\CS\ManagementEndpoint\Dataflow.xaml" sap:VirtualizedContainerService.HintSize="232.8,312" mva:VisualBasic.Settings="Assembly references and imported namespaces serialized as XML namespaces"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities"
+ xmlns:sa="clr-namespace:System.Activities;assembly=System.Activities"
+ xmlns:sad="clr-namespace:System.Activities.Debugger;assembly=System.Activities"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sae="clr-namespace:System.Activities.Expressions;assembly=System.Activities"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sas="clr-namespace:System.Activities.Statements;assembly=System.Activities"
+ xmlns:sav="clr-namespace:System.Activities.Validation;assembly=System.Activities"
+ xmlns:sax="clr-namespace:System.Activities.XamlIntegration;assembly=System.Activities"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:swm="clr-namespace:System.Windows.Markup;assembly=PresentationFramework"
+ xmlns:swm1="clr-namespace:System.Windows.Markup;assembly=WindowsBase"
+ xmlns:swm2="clr-namespace:System.Windows.Markup;assembly=PresentationCore"
+ xmlns:swm3="clr-namespace:System.Windows.Markup;assembly=System.Xaml"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Sequence.Variables>
+    <Variable x:TypeArguments="x:String" Name="str" />
+  </Sequence.Variables>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Assign x:TypeArguments="x:String" sap:VirtualizedContainerService.HintSize="210.4,22.4" To="[str]" Value="hello, world" />
+  <WriteLine sap:VirtualizedContainerService.HintSize="210.4,62.4" Text="[str]" />
+  <Delay Duration="00:03:00" sap:VirtualizedContainerService.HintSize="210.4,22.4" />
+</Sequence>
