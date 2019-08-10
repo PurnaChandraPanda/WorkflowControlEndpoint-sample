@@ -2,7 +2,7 @@ I reviewed some of the classic workflow samples from our “WF_WCF_Samples” [r
 
 It has a project with name “ManagementEndpoint” that talks a great deal about usage of *WorkflowControlEndpoint* class. I modified the sample a little to introduce persistence part in the workflow. After which, called from client to test if workflow instance is actually getting terminated with *Terminate* API call. Yes, it instantaneously removes the associated workflow instance ID from [Instances] table in the persistence store database.
 
-The doc talks a great deal about the service side implementation where instance GUID and other operations are effectively handled via *WorkflowHostingEndpoint* class.
+The [doc](https://docs.microsoft.com/en-us/dotnet/api/system.servicemodel.activities.workflowhostingendpoint?view=netframework-4.8) talks a great deal about the service side implementation where instance GUID and other operations are effectively handled via *WorkflowHostingEndpoint* class.
 
 ## Service side
 1.	XAML is being modified to introduced *Delay* activity for 3 minutes (00:03:00). 
