@@ -1,4 +1,4 @@
-﻿<Sequence mc:Ignorable="sads sap" sad:XamlDebuggerXmlReader.FileName="E:\case\119070822001554-Achim\sample\ManagementEndpoint\CS\ManagementEndpoint\Dataflow.xaml" sap:VirtualizedContainerService.HintSize="232.8,312" mva:VisualBasic.Settings="Assembly references and imported namespaces serialized as XML namespaces"
+﻿<Sequence mc:Ignorable="sads sap" sad:XamlDebuggerXmlReader.FileName="Dataflow.xaml" sap:VirtualizedContainerService.HintSize="232.8,312" mva:VisualBasic.Settings="Assembly references and imported namespaces serialized as XML namespaces"
  xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
  xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities"

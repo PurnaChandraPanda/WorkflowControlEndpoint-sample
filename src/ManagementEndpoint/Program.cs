@@ -24,7 +24,7 @@ namespace Microsoft.Samples.WF.ManagementEndpoint
                 new Uri("http://localhost/Dataflow.xaml"));
             host.Description.Behaviors.Add(new SqlWorkflowInstanceStoreBehavior
             {
-                ConnectionString = ConfigurationManager.AppSettings["persistenceStore"],
+                ConnectionString = ConfigurationManager.ConnectionStrings["persistenceStore"].ConnectionString,
                 InstanceEncodingOption = InstanceEncodingOption.None,
                 InstanceCompletionAction = InstanceCompletionAction.DeleteAll,
                 InstanceLockedExceptionAction = InstanceLockedExceptionAction.NoRetry,
